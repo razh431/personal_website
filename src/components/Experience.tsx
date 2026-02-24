@@ -25,7 +25,7 @@ const roles: Role[] = [
   {
     company: "Amazon AWS",
     title: "Software Engineer",
-    period: "Aug 2023 – Jan 2026",
+    period: "Aug 2023 – Feb 2026",
     highlights: [
       "Led migration from DynamoDB to Amazon RDS (MySQL), redesigning APIs and JavaScript clients to support firmware deployments for millions of EC2 servers.",
       "Centralized GPU firmware distribution with ODMs using AWS Lambda & S3, enabling vendor access to updated BOMs within 1 hour.",
