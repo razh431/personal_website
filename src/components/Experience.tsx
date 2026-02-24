@@ -14,9 +14,18 @@ interface Role {
 
 const roles: Role[] = [
   {
+    company: "Microsoft",
+    title: "Software Engineer",
+    period: "Feb 2026 – Present",
+    highlights: [
+      "Building the Azure Portal — the web experience used by millions of developers and enterprises to manage cloud resources.",
+    ],
+    accent: { dot: "bg-matcha-400", line: "bg-matcha-200", tag: "bg-matcha-50 border-matcha-200", tagText: "text-matcha-700" },
+  },
+  {
     company: "Amazon AWS",
     title: "Software Engineer",
-    period: "Aug 2023 – Present",
+    period: "Aug 2023 – Jan 2026",
     highlights: [
       "Led migration from DynamoDB to Amazon RDS (MySQL), redesigning APIs and JavaScript clients to support firmware deployments for millions of EC2 servers.",
       "Centralized GPU firmware distribution with ODMs using AWS Lambda & S3, enabling vendor access to updated BOMs within 1 hour.",
@@ -25,7 +34,7 @@ const roles: Role[] = [
       "Reduced job failures by 15% by redesigning ETL pipelines running Spark to solve race conditions between jobs.",
       "Spearheaded Amazon region build with IaC, debugging VPC routing, TCP/IP, DNS, and ports.",
     ],
-    accent: { dot: "bg-matcha-400", line: "bg-matcha-200", tag: "bg-matcha-50 border-matcha-200", tagText: "text-matcha-700" },
+    accent: { dot: "bg-terra-400", line: "bg-terra-200", tag: "bg-terra-50 border-terra-200", tagText: "text-terra-500" },
   },
   {
     company: "Amazon AWS",
@@ -83,7 +92,7 @@ export default function Experience() {
           Where I've worked
         </h2>
         <p className="mt-3 text-[15px] text-warm-gray max-w-md leading-relaxed">
-          From research labs to large-scale cloud infrastructure.
+          From research labs to cloud infrastructure to the Azure Portal.
         </p>
         <div className="mt-3 flex gap-2">
           <div className="h-px w-12 bg-matcha-300 mt-2" />

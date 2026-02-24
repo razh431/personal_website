@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
 
           <p className="animate-fade-in-up delay-300 mt-4 font-hand text-lg text-lav-400 rotate-1">
-            currently: building at AWS & planning the next solo trip
+            currently: building the Azure Portal at Microsoft & planning the next solo trip
           </p>
 
           <div className="animate-fade-in-up delay-400 mt-12 flex flex-wrap gap-5">

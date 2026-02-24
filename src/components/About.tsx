@@ -47,10 +47,11 @@ export default function About() {
           </div>
 
           <p className="mt-8 text-[15px] leading-[1.85] text-warm-gray">
-            I'm a software engineer at Amazon AWS, where I work on
-            infrastructure tooling — database migrations, firmware deployment
-            pipelines, and the kind of systems that keep millions of EC2 servers
-            running. I studied Computer Science at Cornell, with minors in
+            I'm a software engineer at Microsoft, working on the Azure Portal —
+            the web experience millions of developers use to manage their cloud
+            resources. Previously, I spent two and a half years at Amazon AWS building
+            infrastructure tooling for firmware deployments and ETL pipelines.
+            I studied Computer Science at Cornell, with minors in
             Electrical Engineering and China &amp; Asia-Pacific Studies.
           </p>
 
@@ -74,6 +75,7 @@ export default function About() {
               { label: "Python", bg: "bg-matcha-50", border: "border-matcha-200", text: "text-matcha-700" },
               { label: "TypeScript", bg: "bg-matcha-50", border: "border-matcha-200", text: "text-matcha-700" },
               { label: "React", bg: "bg-matcha-50", border: "border-matcha-200", text: "text-matcha-700" },
+              { label: "Azure", bg: "bg-amber-50", border: "border-amber-200", text: "text-amber-500" },
               { label: "AWS", bg: "bg-amber-50", border: "border-amber-200", text: "text-amber-500" },
               { label: "Java", bg: "bg-lav-50", border: "border-lav-200", text: "text-lav-500" },
               { label: "Spark", bg: "bg-lav-50", border: "border-lav-200", text: "text-lav-500" },
